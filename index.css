@@ -2,10 +2,83 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: Arial;
+b    .foto-perfil {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.corPrimaria {
+  background-color: blueviolet;
+}
+
+.corSecundaria {
+  background-color: azure;
+
+}
+.email{
+color: black;
+
+}
+p {
+  font-family: Lato, 'Halvetica neue', Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.icones {
+  padding-left: 5px;
+  color: white;
+  zoom: 4;
+}
+
+.titulosBrancos {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  background-image: url("imagens/Imagem_fundo_7.jpg");
+  font-weight: 700;
+  color: white;
+}
+
+.titulosAzul {
+  text-decoration: underline;
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: cornflowerblue;
+}
+
+.textoBranco {
+  color: white !important;
+  font-weight: bolder;
+  opacity: 1.0;
+}
+
+.textoPreto {
+  color: black !important;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+.fundoRoxo {
+  opacity: 0.8;
+}
+
+
+.body {
+  background-image: url("imagens/Imagem_fundo_7.jpg");
+  background-size: contain;
+}
+
+.btn {
+  color: azure;
+  background-color: blueviolet;
+  font-weight: bolder;
 }
 
 /* Center website */
